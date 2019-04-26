@@ -79,3 +79,33 @@ header .fullCont .flagsCont .flags img {
   cursor: pointer;
 }
 
+main .abtUs {
+  height: calc(100vh - 70px);
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .abtUs .textAbtUs {
+  width: 40%;
+  text-align: center;
+}
+
+main .abtUs .textAbtUs h1 {
+  color: #d70f64;
+  margin: 0 0 20px;
+}
+
+main .abtUs .learnMore {
+  background-color: #d70f64;
+  color: white;
+  width: 20%;
+  height: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+

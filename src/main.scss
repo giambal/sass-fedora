@@ -1,0 +1,33 @@
+main{
+
+  .abtUs{
+    height: $height;
+    background-color: white;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+    .textAbtUs{
+      width: 40%;
+      text-align: center;
+
+      h1{
+
+        color: $fontpink;
+        margin: 0 0 20px;
+      }
+    }
+
+    .learnMore{
+      background-color: $fontpink;
+      color: white;
+      width: 20%;
+      height: 8%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+    }
+  }
+}
