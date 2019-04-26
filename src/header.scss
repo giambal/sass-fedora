@@ -1,0 +1,47 @@
+header{
+
+  .fullCont{
+    height: $height;
+    background-image: url('https://www.foodora.com/wp-content/uploads/2015/07/4000x2000_parallax_5.jpg');
+    background-size: cover;
+    position: relative;
+
+    .title{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50% , -50%);
+      font-size: 1.3em;
+      color: white;
+      text-shadow: 2px 1px rgba(60,60,60,0.5);
+    }
+
+    .flagsCont{
+      background-color: rgba(80 , 80 , 80 , 0.5);
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      padding: 10px;
+      display: flex;
+
+      .choose{
+        width: 30%;
+        text-align: center;
+        color: white;
+        font-size: 0.8em;
+      }
+
+      .flags{
+        width: 70%;
+        margin-left: 5%;
+
+        img{
+          border-radius: 5px;
+          margin-left: 20px;
+          width: 50px;
+          cursor:pointer;
+        }
+      }
+    }
+  }
+}

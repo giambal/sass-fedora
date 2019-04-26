@@ -1,0 +1,27 @@
+nav{
+  .fullCont{
+    background-color: white;
+
+    .nav{
+      width: 90%;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      img{
+        max-width: 200px;
+        height: 70px;
+      }
+
+      .menu{
+
+        span{
+          margin:20px;
+          color: $fontpink;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

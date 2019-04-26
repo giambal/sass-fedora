@@ -1,0 +1,14 @@
+$fontpink: #d70f64;
+$height: calc(100vh - 70px);
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.fullCont{
+  width: 100vw;
+  max-width: 100%;
+}

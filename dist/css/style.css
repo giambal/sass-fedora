@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.fullCont {
+  width: 100vw;
+  max-width: 100%;
+}
+
+nav .fullCont {
+  background-color: white;
+}
+
+nav .fullCont .nav {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .fullCont .nav img {
+  max-width: 200px;
+  height: 70px;
+}
+
+nav .fullCont .nav .menu span {
+  margin: 20px;
+  color: #d70f64;
+  cursor: pointer;
+}
+
+header .fullCont {
+  height: calc(100vh - 70px);
+  background-image: url("https://www.foodora.com/wp-content/uploads/2015/07/4000x2000_parallax_5.jpg");
+  background-size: cover;
+  position: relative;
+}
+
+header .fullCont .title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 1.3em;
+  color: white;
+  text-shadow: 2px 1px rgba(60, 60, 60, 0.5);
+}
+
+header .fullCont .flagsCont {
+  background-color: rgba(80, 80, 80, 0.5);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+}
+
+header .fullCont .flagsCont .choose {
+  width: 30%;
+  text-align: center;
+  color: white;
+  font-size: 0.8em;
+}
+
+header .fullCont .flagsCont .flags {
+  width: 70%;
+  margin-left: 5%;
+}
+
+header .fullCont .flagsCont .flags img {
+  border-radius: 5px;
+  margin-left: 20px;
+  width: 50px;
+  cursor: pointer;
+}
+
