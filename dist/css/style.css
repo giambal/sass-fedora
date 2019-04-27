@@ -10,6 +10,14 @@
   max-width: 100%;
 }
 
+nav {
+  z-index: 100;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
 nav .fullCont {
   background-color: white;
 }
@@ -79,7 +87,7 @@ header .fullCont .flagsCont .flags img {
   cursor: pointer;
 }
 
-main .abtUs {
+main .aboutUs {
   height: calc(100vh - 70px);
   background-color: white;
   display: flex;
@@ -88,17 +96,17 @@ main .abtUs {
   align-items: center;
 }
 
-main .abtUs .textAbtUs {
+main .aboutUs .textAbtUs {
   width: 40%;
   text-align: center;
 }
 
-main .abtUs .textAbtUs h1 {
+main .aboutUs .textAbtUs h1 {
   color: #d70f64;
   margin: 0 0 20px;
 }
 
-main .abtUs .learnMore {
+main .aboutUs .learnMore {
   background-color: #d70f64;
   color: white;
   width: 20%;
@@ -107,5 +115,133 @@ main .abtUs .learnMore {
   align-items: center;
   justify-content: center;
   margin-top: 50px;
+}
+
+main .careers {
+  height: calc(100vh - 70px);
+  background-image: url("https://www.foodora.com/wp-content/uploads/2015/07/4000x2000_careers_parallax_2.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .careers .textAbtUs {
+  width: 40%;
+  text-align: center;
+  color: white;
+}
+
+main .careers .textAbtUs h1 {
+  color: #d70f64;
+  margin: 0 0 20px;
+}
+
+main .careers .learnMore {
+  background-color: #d70f64;
+  color: white;
+  width: 20%;
+  height: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+main .press {
+  height: calc(100vh - 70px);
+  background-image: url("https://www.foodora.com/wp-content/uploads/2015/07/4000x2000_parallax_tuna.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .press .textAbtUs {
+  width: 40%;
+  text-align: center;
+  color: white;
+}
+
+main .press .textAbtUs h1 {
+  color: #d70f64;
+  margin: 0 0 20px;
+}
+
+main .press .learnMore {
+  background-color: #d70f64;
+  color: white;
+  width: 20%;
+  height: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+main .contact {
+  height: calc(100vh - 70px);
+  background-color: #d70f64;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .contact .textAbtUs {
+  width: 40%;
+  text-align: center;
+  color: white;
+}
+
+main .contact .textAbtUs h1 {
+  margin: 0 0 20px;
+}
+
+main .contact .learnMore {
+  background-color: white;
+  color: #d70f64;
+  width: 20%;
+  height: 8%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+footer {
+  background-color: white;
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8% 0 8%;
+}
+
+footer .right img {
+  max-width: 200px;
+  height: 70px;
+}
+
+footer .left .logos {
+  color: #d70f64;
+  display: flex;
+}
+
+footer .left .logos .border-radius {
+  border: 1px solid #d70f64;
+  height: 20px;
+  width: 20px;
+  background-color: white;
+  border-radius: 50%;
+  margin-left: 10px;
+  text-align: center;
+}
+
+footer .left .underlogos span {
+  margin-left: 10px;
 }
 

@@ -1,6 +1,6 @@
 main{
 
-  .abtUs{
+  .aboutUs{
     height: $height;
     background-color: white;
     display: flex;
@@ -22,6 +22,103 @@ main{
     .learnMore{
       background-color: $fontpink;
       color: white;
+      width: 20%;
+      height: 8%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+    }
+  }
+
+  .careers{
+    height: $height;
+    background-image: url('https://www.foodora.com/wp-content/uploads/2015/07/4000x2000_careers_parallax_2.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+    .textAbtUs{
+      width: 40%;
+      text-align: center;
+      color: white;
+
+      h1{
+
+        color: $fontpink;
+        margin: 0 0 20px;
+      }
+    }
+
+    .learnMore{
+      background-color: $fontpink;
+      color: white;
+      width: 20%;
+      height: 8%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+    }
+  }
+
+  .press{
+    height: $height;
+    background-image: url('https://www.foodora.com/wp-content/uploads/2015/07/4000x2000_parallax_tuna.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+    .textAbtUs{
+      width: 40%;
+      text-align: center;
+      color: white;
+
+      h1{
+
+        color: $fontpink;
+        margin: 0 0 20px;
+      }
+    }
+
+    .learnMore{
+      background-color: $fontpink;
+      color: white;
+      width: 20%;
+      height: 8%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 50px;
+    }
+  }
+
+  .contact{
+    height: $height;
+    background-color: $fontpink;
+    background-size: cover;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+    .textAbtUs{
+      width: 40%;
+      text-align: center;
+      color: white;
+
+      h1{
+        margin: 0 0 20px;
+      }
+    }
+
+    .learnMore{
+      background-color: white;
+      color: $fontpink;
       width: 20%;
       height: 8%;
       display: flex;
